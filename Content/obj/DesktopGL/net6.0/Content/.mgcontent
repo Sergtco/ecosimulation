@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profile>Reach</Profile>
+  <Platform>DesktopGL</Platform>
+  <Config />
+  <SourceFiles>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/bear/MiniBear.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/bird/MiniBird.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/boar/MiniBoar.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/bunny/MiniBunny.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/cursor/back/back1.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/cursor/back/back10.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/cursor/back/back11.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/cursor/back/back12.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/cursor/back/back13.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/cursor/back/back14.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/cursor/back/back15.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/cursor/back/back16.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/cursor/back/back17.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/cursor/back/back18.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/cursor/back/back19.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/cursor/back/back2.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/cursor/back/back20.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/cursor/back/back21.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/cursor/back/back22.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/cursor/back/back23.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/cursor/back/back24.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/cursor/back/back25.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/cursor/back/back26.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/cursor/back/back27.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/cursor/back/back28.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/cursor/back/back29.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/cursor/back/back3.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/cursor/back/back30.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/cursor/back/back31.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/cursor/back/back32.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/cursor/back/back33.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/cursor/back/back4.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/cursor/back/back5.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/cursor/back/back6.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/cursor/back/back7.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/cursor/back/back8.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/cursor/back/back9.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/cursor/palm/palm1.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/cursor/palm/palm10.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/cursor/palm/palm11.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/cursor/palm/palm12.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/cursor/palm/palm13.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/cursor/palm/palm14.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/cursor/palm/palm15.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/cursor/palm/palm16.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/cursor/palm/palm17.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/cursor/palm/palm18.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/cursor/palm/palm19.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/cursor/palm/palm2.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/cursor/palm/palm20.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/cursor/palm/palm21.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/cursor/palm/palm22.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/cursor/palm/palm23.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/cursor/palm/palm24.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/cursor/palm/palm25.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/cursor/palm/palm26.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/cursor/palm/palm27.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/cursor/palm/palm28.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/cursor/palm/palm29.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/cursor/palm/palm3.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/cursor/palm/palm30.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/cursor/palm/palm31.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/cursor/palm/palm32.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/cursor/palm/palm33.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/cursor/palm/palm4.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/cursor/palm/palm5.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/cursor/palm/palm6.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/cursor/palm/palm7.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/cursor/palm/palm8.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/cursor/palm/palm9.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/deer/MiniDeer1.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/deer/MiniDeer2.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/fox/MiniFox.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/wolf/MiniWolf.png</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>
