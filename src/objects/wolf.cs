@@ -11,7 +11,10 @@ using System;
 namespace simulation;
 class Wolf : Animal
 {
-    public override State CurrState { get { return state; } }
+    public override State CurrState
+    {
+        get { return state; }
+    }
     State state;
     public override float StateTime { get { return stateTime; } }
     float stateTime;
@@ -69,6 +72,7 @@ class Wolf : Animal
         walkAnimation = new Animation(sheet, 1, 0.1f, 6, true);
         howlAnimation = new Animation(sheet, 5, 0.4f, 7, false);
         attackAnimation = new Animation(sheet, 4, 0.2f, 5, false);
+        deadAnimation = new Animation(sheet, 7, 0.2f, 3, false);
     }
 
 
@@ -92,6 +96,10 @@ class Wolf : Animal
                 break;
             case State.Howl:
                 howlAnimation.FrameNum = 0;
+                speed = Vector2.Zero;
+                break;
+            case State.Dead:
+                deadAnimation.FrameNum = 0;
                 speed = Vector2.Zero;
                 break;
         }
@@ -131,6 +139,7 @@ class Wolf : Animal
         hunger -= (float)gameTime.ElapsedGameTime.TotalSeconds;
         stateTime += (float)gameTime.ElapsedGameTime.TotalSeconds;
         grab();
+        godKill();
 
         // Console.WriteLine(hunger);
         switch (CurrState)
@@ -162,7 +171,8 @@ class Wolf : Animal
                 if (prey.CurrState != State.Dead)
                 {
                     move(pos: prey.Position, speed: new Vector2(200, 200));
-                    if (attackAnimation.FrameNum == attackAnimation.FrameCount - 1) {
+                    if (attackAnimation.FrameNum == attackAnimation.FrameCount - 1)
+                    {
                         attackAnimation.FrameNum = 0;
                     }
                     if (prey.Hitbox.Intersects(hitbox) && attackAnimation.FrameNum == 2)
@@ -226,9 +236,12 @@ class Wolf : Animal
             case State.Howl:
                 animation = howlAnimation;
                 break;
+            case State.Dead:
+                animation = deadAnimation;
+                break;
             case State.Hunt:
                 animation = walkAnimation;
-                if (Vector2.Distance(prey.Hitbox.Center.ToVector2(), hitbox.Center.ToVector2()) < prey.Hitbox.Width )
+                if (Vector2.Distance(prey.Hitbox.Center.ToVector2(), hitbox.Center.ToVector2()) < prey.Hitbox.Width)
                 {
                     animation = attackAnimation;
                 }

@@ -3,7 +3,7 @@
   <SourceFile>/home/sergtco/Programming/cs/simulation/Content/sprites/wolf/MiniWolf.png</SourceFile>
   <SourceTime>2023-02-06T07:50:28+03:00</SourceTime>
   <DestFile>/home/sergtco/Programming/cs/simulation/Content/bin/DesktopGL/sprites/wolf/MiniWolf.xnb</DestFile>
-  <DestTime>2023-05-10T14:17:45.3470322+03:00</DestTime>
+  <DestTime>2023-06-05T15:12:22.7240989+03:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2022-07-26T14:44:56+03:00</ImporterTime>
   <Processor>GridSheetProcessor</Processor>

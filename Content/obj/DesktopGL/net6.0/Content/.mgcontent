@@ -4,10 +4,23 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
+    <File>/home/sergtco/Programming/cs/simulation/Content/backgrounds/background_grass.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/fonts/arcadeclassic.spritefont</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/fonts/joystix.spritefont</File>
     <File>/home/sergtco/Programming/cs/simulation/Content/sprites/bear/MiniBear.png</File>
     <File>/home/sergtco/Programming/cs/simulation/Content/sprites/bird/MiniBird.png</File>
     <File>/home/sergtco/Programming/cs/simulation/Content/sprites/boar/MiniBoar.png</File>
     <File>/home/sergtco/Programming/cs/simulation/Content/sprites/bunny/MiniBunny.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/Controls/Button/Button.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/Controls/Continue/idle.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/Controls/Continue/pressed.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/Controls/Pause/idle.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/Controls/Pause/pressed.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/Controls/Restart/idle.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/Controls/Restart/pressed.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/Controls/Start/clicked.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/Controls/Start/idle.png</File>
+    <File>/home/sergtco/Programming/cs/simulation/Content/sprites/Controls/TextField/TextField.png</File>
     <File>/home/sergtco/Programming/cs/simulation/Content/sprites/cursor/back/back1.png</File>
     <File>/home/sergtco/Programming/cs/simulation/Content/sprites/cursor/back/back10.png</File>
     <File>/home/sergtco/Programming/cs/simulation/Content/sprites/cursor/back/back11.png</File>
@@ -80,6 +93,19 @@
     <File>/home/sergtco/Programming/cs/simulation/Content/sprites/wolf/MiniWolf.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

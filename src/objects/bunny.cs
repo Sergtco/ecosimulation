@@ -3,7 +3,7 @@ using Microsoft.Xna.Framework.Graphics;
 // using Microsoft.Xna.Framework.Input;
 using MonoGame.Spritesheet;
 using simulation.Display;
-// using simulation.Input;
+using simulation.Input;
 using simulation.Shapes;
 using System;
 
@@ -12,7 +12,10 @@ namespace simulation;
 class Bunny : Animal
 {
 
-    public override State CurrState { get { return state; } }
+    public override State CurrState
+    {
+        get { return state; }
+    }
     State state;
     public override float StateTime { get { return stateTime; } }
     float stateTime;
@@ -113,11 +116,13 @@ class Bunny : Animal
         stateTime += (float)gameTime.ElapsedGameTime.TotalSeconds;
 
         grab();
+        godKill();
 
         switch (CurrState)
         {
             case State.Idle:
-                if (hunger < 50) {
+                if (hunger < 50)
+                {
                     hunger += 25;
                 }
                 if (stateTime > 4 && stateTime % 5 < 1 && Rand.get(0, 5) == 1)

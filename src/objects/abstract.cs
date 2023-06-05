@@ -28,7 +28,7 @@ public abstract class Object
 {
     protected Game1 game;
 
-    public abstract State CurrState { get; }
+    public abstract State CurrState { get;}
 
     public abstract float StateTime { get; }
 
@@ -63,6 +63,7 @@ public abstract class Object
     protected abstract void chagePosition(float elapsedSeconds);
     protected void grab()
     {
+        if (CurrState == State.Dead) return;
         if (InputManager.leftHold && InputManager.Hover(Hitbox) && (Cursor.grabObject == null || Cursor.grabObject == this) || InputManager.leftHold && Cursor.grabObject == this)
         {
             Cursor.grabObject = this;
@@ -130,6 +131,11 @@ public abstract class Animal : Object
             direction.Normalize();
             this.speed.X *= direction.X;
             this.speed.Y *= direction.Y;
+        }
+    }
+    protected void godKill() {
+        if (InputManager.middleClicked && InputManager.Hover(hitbox)) {
+            changeState(State.Dead);
         }
     }
 

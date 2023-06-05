@@ -8,7 +8,7 @@ using System;
 namespace simulation.Display;
 public static class DisplayManager {
     public const float SCALE = 1.4f;
-    public static int width = 1920;
-    public static int height = 1080;
+    public static int width = 1280;
+    public static int height = 720;
     public static Rectangle screen = new Rectangle(0, 0, width, height);
 }

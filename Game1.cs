@@ -3,6 +3,7 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using simulation.Input;
 using simulation.Display;
+using simulation.States;
 // using System;
 using System.Collections.Generic;
 
@@ -12,6 +13,11 @@ public class Game1 : Game
     private GraphicsDeviceManager _graphics;
     private SpriteBatch _spriteBatch;
     public List<Object> objects = new List<Object>();
+
+
+    public GameState _currState;
+    public GameState _nextState = null;
+    public GameState _buffState;
 
     public Game1()
     {
@@ -35,22 +41,8 @@ public class Game1 : Game
     {
         Cursor.init(this);
         _spriteBatch = new SpriteBatch(GraphicsDevice);
-        for (int i = 0; i < 100; i++)
-        {
-            System.Threading.Thread.Sleep(10);
-            int x = Rand.get(0, _graphics.PreferredBackBufferWidth - 100);
-            int y = Rand.get(0, _graphics.PreferredBackBufferHeight - 100);
-            Bunny bunny = new Bunny(this, new Vector2(x, y));
-            objects.Add(bunny);
-        }
-        for (int i = 0; i < 1; i++)
-        {
-            System.Threading.Thread.Sleep(10);
-            int x = Rand.get(0, _graphics.PreferredBackBufferWidth - 100);
-            int y = Rand.get(0, _graphics.PreferredBackBufferHeight - 100);
-            Wolf wolf = new Wolf(this, new Vector2(x, y));
-            objects.Add(wolf);
-        }
+        _currState = new MenuState(this);
+        _currState.LoadContent();
 
     }
 
@@ -59,13 +51,12 @@ public class Game1 : Game
 
         InputManager.Update();
         Cursor.Update();
-
-        for (int i = 0; i < objects.Count; i++) {
-            objects[i].Update(gameTime);
-            if ((objects[i]).CurrState == State.Dead && (objects[i]).StateTime >= 15) {
-                objects.RemoveAt(i);
-            }
+        if (_nextState != null) {
+            _currState = _nextState;
+            _nextState = null;
         }
+        _currState.Update(gameTime);
+
         if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
             Exit();
 
@@ -76,10 +67,7 @@ public class Game1 : Game
     {
         GraphicsDevice.Clear(Color.Green);
         _spriteBatch.Begin(samplerState: SamplerState.PointClamp);
-        foreach (Animal animal in objects)
-        {
-            animal.Draw(_spriteBatch);
-        }
+        _currState.Draw(gameTime, _spriteBatch);
         Cursor.Draw(_spriteBatch);
         _spriteBatch.End();
 
